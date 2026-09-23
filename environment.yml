@@ -1,0 +1,17 @@
+name: mountain-hmmaxent
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - pyyaml
+  - geopandas
+  - shapely
+  - pyproj
+  - r-base
+  - r-maxnet
+  - r-data.table
+  - pip

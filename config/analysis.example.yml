@@ -1,0 +1,19 @@
+seed: 20260829
+analysis_grid_deg: 0.05
+headline_species: 308
+extra_species: 1042
+rarefaction:
+  absolute_counts: [5, 8, 10, 12, 15, 20]
+  n_species: 80
+  n_seeds: 10
+maxent:
+  feature_classes: lqh
+  regularization_multiplier: 1.5
+hgb:
+  max_depth: 4
+  max_iter: 80
+  learning_rate: 0.08
+  min_samples_leaf: 8
+  embedding_pcs: 12
+protected_area_null:
+  n_null: 9999
